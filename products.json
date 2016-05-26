@@ -1,0 +1,10 @@
+[
+{
+    "ID": "Bread",
+    "stores": ["Minneapolis", "Bel Air"]
+},
+{
+  "ID": "Pencils",
+  "stores": ["Minneapolis", "Bel Air"]
+}
+]

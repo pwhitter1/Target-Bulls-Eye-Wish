@@ -2,10 +2,7 @@ function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
-     //document.getElementById("contactForm").innerHTML = xhttp.responseText;
       var jsonObj = JSON.parse(xhttp.responseText);
-      //jsonObj.wishes = document.getElementById("wish").innerHTML;
-      //alert(document.getElementById("zip").value);
       jsonObj.push({ID:document.getElementById("zip").value, wishes: document.getElementById("wish").value});
       var i;
       text = "";
